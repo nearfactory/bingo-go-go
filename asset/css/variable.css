@@ -1,1 +1,10 @@
 @charset "utf-8";
+
+:root{
+  --background1: #fff8f0;
+  --background2: #423c36;
+  --background3: #312E2A;
+
+  --text1: #221810;
+  --text2: #fffefd;
+}

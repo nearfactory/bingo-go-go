@@ -1,1 +1,13 @@
 @charset "utf-8";
+
+@font-face{
+  font-family: 'Albert Sans';
+  src: url('../font/Albert_Sans/AlbertSans-Regular.ttf') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Noto Sans JP';
+  src: url('../font/Noto_Sans_JP/NotoSansJP-Regular.ttf') format('ttf');
+  font-style: normal;
+}

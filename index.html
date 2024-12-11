@@ -34,10 +34,21 @@
   </head>
 
   <body>
+    <!-- ヘッダー部分 -->
     <header>
-      <button class="headerBtn" id="headerBtnHome"><i class="fa-solid fa-house"></i></button>
+      <a href="./index.html" class="headerBtn" id="headerBtnHome"><i class="fa-solid fa-house"></i></a>
+      <span></span>
       <button class="headerBtn" id="headerBtnMenu"><i class="fa-solid fa-bars"></i></button>
     </header>
+
+    <!-- メニューウィンドウ（通常時は横に隠れている） -->
+     <div id="menuWindow">
+      <ul>
+        <li>Create a Room</li>
+        <li>Join a Room</li>
+        <li>My Profile</li>
+      </ul>
+     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
